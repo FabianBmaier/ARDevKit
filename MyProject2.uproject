@@ -1,0 +1,58 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.26",
+	"Category": "",
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "GoogleARCore",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Android"
+			]
+		},
+		{
+			"Name": "AppleARKit",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"IOS",
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "AzureSpatialAnchors",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"HoloLens",
+				"Android",
+				"IOS",
+				"Mac"
+			]
+		},
+		{
+			"Name": "AzureSpatialAnchorsForARKit",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"IOS"
+			]
+		},
+		{
+			"Name": "LocationServicesIOSImpl",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "HDRIBackdrop",
+			"Enabled": true
+		}
+	],
+	"TargetPlatforms": [
+		"Android",
+		"IOS"
+	]
+}
